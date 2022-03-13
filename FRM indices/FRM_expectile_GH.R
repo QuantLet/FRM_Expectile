@@ -2,7 +2,7 @@
 rm(list = ls(all = TRUE))
 graphics.off()
 
-libraries = c("dplyr", "RColorBrewer", "goft")
+libraries = c("dplyr", "RColorBrewer", "goft","ggplot2")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)
 })
